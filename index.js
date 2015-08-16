@@ -59,8 +59,8 @@ function list (cb) {
         return {
           name: name,
           bssid: bss,
-          channel: chan,
-          signal: sig,
+          channel: ~~chan,
+          signal: ~~sig,
           isHT: parseHT(htMode),
           countryCode: parseCountryCode(countryCode),
           security: sec
