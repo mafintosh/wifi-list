@@ -1,0 +1,23 @@
+{
+  "name": "wifi-list",
+  "version": "0.0.0",
+  "description": "List nearby wifi networks",
+  "main": "index.js",
+  "dependencies": {},
+  "devDependencies": {
+    "standard": "^5.1.0"
+  },
+  "scripts": {
+    "test": "standard"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mafintosh/wifi-list.git"
+  },
+  "author": "Mathias Buus (@mafintosh)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mafintosh/wifi-list/issues"
+  },
+  "homepage": "https://github.com/mafintosh/wifi-list"
+}
