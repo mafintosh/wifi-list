@@ -61,7 +61,7 @@ function list (cb) {
           bssid: bss,
           channel: ~~chan,
           signal: ~~sig,
-          isHT: parseHT(htMode),
+          highThroughputMode: parseHT(htMode),
           countryCode: parseCountryCode(countryCode),
           security: sec
         }
