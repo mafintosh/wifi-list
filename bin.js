@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 var wifi = require('./')
 
 wifi(function (err, list) {
