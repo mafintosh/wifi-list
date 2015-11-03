@@ -3,6 +3,9 @@
   "version": "1.1.0",
   "description": "List nearby wifi networks",
   "main": "index.js",
+  "bin":{
+    "wifi-list": "./bin.js"
+  },
   "dependencies": {},
   "devDependencies": {
     "standard": "^5.1.0"
