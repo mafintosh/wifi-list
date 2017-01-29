@@ -1,6 +1,6 @@
 # wifi-list
 
-List nearby wifi networks
+List nearby wifi networks. Currently works on macOS only, using the built-in [`airport`](http://apple.stackexchange.com/questions/130923/is-there-a-built-in-command-line-utility-for-airport-and-other-wifi-networks) utility.
 
 ```
 npm install wifi-list
